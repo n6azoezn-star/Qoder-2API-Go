@@ -17,5 +17,5 @@ COPY --from=builder /build/qoder2api .
 ENV QODER_HOST=0.0.0.0 \
     QODER_PORT=10081 \
     TZ=Asia/Shanghai
-EXPOSE 8080
+EXPOSE 10081
 CMD ["./qoder2api"]
